@@ -1,0 +1,16 @@
+@keyframes endAnim {
+    0% {
+        right: 0%;
+        opacity: 1;
+    }
+    30% {
+        right: 34%;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        right: 34%;
+    }
+}

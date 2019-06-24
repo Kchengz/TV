@@ -1,0 +1,326 @@
+@keyframes bulletAnim {
+    0% {
+        box-shadow:
+            2em 0em 0 0.25em #333,
+            2em 0em 0 0.25em #333,
+            2em 0em 0 0.25em #333,
+            2em 0em 0 0.25em #333,
+            2em 0em 0 0.25em #333,
+            2em 0em 0 0.25em #333,
+            2em 0em 0 0.25em #333,
+            2em 0em 0 0.25em #333,
+            2em 0em 0 0.25em #333;
+    }
+
+    5% {
+        box-shadow:
+            2em -10em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333;
+    }
+
+    10% {
+        box-shadow:
+            2em -20em 0 0.25em #333,
+            17em -10em 0 0.25em #333,
+            22em 0em 0 0.25em #333,
+            22em 0em 0 0.25em #333,
+            22em 0em 0 0.25em #333,
+            22em 0em 0 0.25em #333,
+            22em 0em 0 0.25em #333,
+            22em 0em 0 0.25em #333,
+            22em 0em 0 0.25em #333;
+    }
+
+    15% {
+        box-shadow:
+            2em -30em 0 0.25em #333,
+            17em -20em 0 0.25em #333,
+            22em -10em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333;
+    }
+
+    15.01% {
+        box-shadow:
+            2em -30em 0 0.25em transparent,
+            17em -20em 0 0.25em #333,
+            22em -10em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333,
+            25em 0em 0 0.25em #333;
+    }
+
+    20% {
+        box-shadow:
+            2em -40em 0 0.25em transparent,
+            17em -30em 0 0.25em #333,
+            22em -20em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333;
+    }
+
+    20.01% {
+        box-shadow:
+            2em -40em 0 0.25em transparent,
+            17em -30em 0 0.25em transparent,
+            22em -20em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333,
+            17em 0em 0 0.25em #333;
+    }
+
+    25% {
+        box-shadow:
+            2em -40em 0 0.25em transparent,
+            17em -30em 0 0.25em transparent,
+            22em -30em 0 0.25em #333,
+            17em -10em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333;
+    }
+    25.01%{
+        box-shadow:
+            2em -40em 0 0.25em transparent,
+            17em -30em 0 0.25em transparent,
+            22em -30em 0 0.25em transparent,
+            17em -10em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333,
+            24.5em 0em 0 0.25em #333;
+    } 
+
+    30% {
+        box-shadow:
+            0 -40em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            17.5em -20em 0 0.25em #333,
+            32em 0em 0 0.25em #333,
+            32em 0em 0 0.25em #333,
+            32em 0em 0 0.25em #333,
+            32em 0em 0 0.25em #333,
+            32em 0em 0 0.25em #333;
+    }
+
+    35% {
+        box-shadow:
+            0 -40em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            17.5em -30em 0 0.25em #333,
+            32em -10em 0 0.25em #333,
+            42em 0em 0 0.25em #333,
+            42em 0em 0 0.25em #333,
+            42em 0em 0 0.25em #333,
+            42em 0em 0 0.25em #333;
+    }
+
+    40% {
+        box-shadow:
+            0 -40em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            17.5em -40em 0 0.25em #333,
+            32em -20em 0 0.25em #333,
+            30em 0em 0 0.25em #333,
+            30em 0em 0 0.25em #333,
+            30em 0em 0 0.25em #333,
+            30em 0em 0 0.25em #333;
+    }
+
+
+    50%{
+        box-shadow:
+            0 -40em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            17.5em -60em 0 0.25em #333,
+            32em -40em 0 0.25em #333,
+            32em 0em 0 0.25em #333,
+            32em 0em 0 0.25em #333,
+            32em 0em 0 0.25em #333,
+            32em 0em 0 0.25em #333;
+    }
+    53%{
+        box-shadow:
+            0 -40em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            17.5em -66em 0 0.25em transparent,
+            32em -46em 0 0.25em #333,
+            32em -6em 0 0.25em #333,
+            29em 0em 0 0.25em #333,
+            29em 0em 0 0.25em #333,
+            29em 0em 0 0.25em #333;
+    }
+    53.01%{
+        box-shadow:
+            0 -40em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            0 -30em 0 0.25em transparent,
+            0em -66em 0 0.25em transparent,
+            32em -46em 0 0.25em transparent,
+            32em -6em 0 0.25em #333,
+            29em 0em 0 0.25em #333,
+            29em 0em 0 0.25em #333,
+            29em 0em 0 0.25em #333;
+    }
+
+    55% {
+        box-shadow:
+           0 0 0 0.25em transparent,
+           0 0 0 0.25em transparent,
+           0 0 0 0.25em transparent,
+           0 0 0 0.25em transparent,
+           0 0 0 0.25em transparent,
+           32em -10em 0 0.25em #333,
+           27em 0em 0 0.25em #333,
+           27em 0em 0 0.25em #333,
+           27em 0em 0 0.25em #333;
+   }
+
+
+    60% {
+       box-shadow:
+       0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        32em -20em 0 0.25em #333,
+        27em -10em 0 0.25em #333,
+        22em 0 0 0.25em #333,
+        22em 0em 0 0.25em #333; 
+    }
+
+    65% {
+        box-shadow:
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        32em -30em 0 0.25em #333,
+        27em -20em 0 0.25em #333,
+        22em -10em 0 0.25em #333,
+        28em 0em 0 0.25em #333; 
+    }
+    65.01% {
+        box-shadow:
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        32em -30em 0 0.25em transparent,
+        27em -20em 0 0.25em #333,
+        22em -10em 0 0.25em #333,
+        28em 0em 0 0.25em #333; 
+    }
+
+    70% {
+        box-shadow:
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        27em -30em 0 0.25em #333,
+        22em -20em 0 0.25em #333,
+        28em -10em 0 0.25em #333; 
+    }
+    70.01% {
+        box-shadow:
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        22em -20em 0 0.25em #333,
+        28em -10em 0 0.25em #333; 
+    }
+
+    75% {
+        box-shadow:
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        22em -30em 0 0.25em #333,
+        28em -20em 0 0.25em #333; 
+    }
+    75.01% {
+        box-shadow:
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        28em -21em 0 0.25em #333; 
+    }
+
+    80% {
+        box-shadow:
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        28em -32em 0 0.25em #333;  
+    }
+    80.01% {
+        box-shadow:
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent,
+        0 0 0 0.25em transparent;  
+    }
+
+    100% {
+        box-shadow:
+        0 0 0 0.25em transparent;
+    }
+}

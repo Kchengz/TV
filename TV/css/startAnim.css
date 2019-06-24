@@ -1,0 +1,94 @@
+@keyframes startAnim {
+    0% {
+        right: 0%;
+        opacity: 1;
+    }
+    30% {
+        right: 45%;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        right: 45%;
+    }
+}
+
+@keyframes item1 {
+    29% {
+        background: transparent;
+    }
+    30% {
+        background: rgb(103, 242, 252);
+    }
+    40% {
+        background: rgb(103, 242, 252);
+    }
+    40.01% {
+        background: transparent;
+    }
+    70% {
+        background: transparent;
+    }
+    70.01% {
+        background: rgb(103, 242, 252);
+    }
+    75% {
+        background: transparent;
+    }
+    80% {
+        background: rgb(103, 242, 252);
+    }
+    85% {
+        background: transparent;
+    }
+    90% {
+        background: rgb(103, 242, 252);
+    }
+    95% {
+        background: transparent;
+    }
+}
+
+@keyframes item2 {
+    40% {
+        background: transparent;
+    }
+    40.01% {
+        background: rgb(103, 242, 252);
+    }
+    50% {
+        background: rgb(103, 242, 252);
+    }
+    50.01% {
+        background: transparent;
+    }
+    60% {
+        background: transparent;
+    }
+    60.01% {
+        background: rgb(103, 242, 252);
+    }
+    70% {
+        background: rgb(103, 242, 252);
+    }
+    70.01% {
+        background: transparent;
+    }
+}
+
+@keyframes item3 {
+    50% {
+        background: transparent;
+    }
+    50.01% {
+        background: rgb(103, 242, 252);
+    }
+    60% {
+        background: rgb(103, 242, 252);
+    }
+    60.01% {
+        background: transparent;
+    }
+}

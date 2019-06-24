@@ -1,0 +1,81 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.start {
+    position: fixed;
+    top: 30%;
+    font-size: 45px;
+    opacity: 0;
+    animation: startAnim 5s linear;
+}
+
+.start>h3 {
+    margin: 10px 0 20px;
+}
+
+.start>div {
+    padding: 6px 10px;
+    font-size: 40px;
+    border-radius: 8px;
+}
+
+.start>.item {
+    animation: item1 5s;
+}
+
+.start>.item+div {
+    animation: item2 5s;
+}
+
+.start>.item+div+div {
+    animation: item3 5s;
+}
+
+.smallTV {
+    animation: smallTVAnim 11s 5s linear;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 12px;
+    width: 1em;
+    height: 1em;
+    /* box-shadow:0; */
+}
+
+
+/* .TV-box{} */
+
+.tank {
+    animation: tankAnim 11s 5s linear;
+    position: absolute;
+    left: 0px;
+    top: 57em;
+    font-size: 12px;
+    width: 1em;
+    height: 1em;
+}
+
+
+/* 子弹 */
+
+.bullet {
+    animation: bulletAnim 11s 5s linear;
+    position: absolute;
+    left: 0px;
+    top: 57em;
+    font-size: 12px;
+    width: 1em;
+    height: 1em;
+}
+
+.end {
+    position: fixed;
+    top: 40%;
+    font-size: 45px;
+    font-weight: bold;
+    opacity: 0;
+    animation: endAnim 8s 16s linear;
+}

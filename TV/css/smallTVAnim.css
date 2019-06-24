@@ -1,0 +1,608 @@
+@keyframes smallTVAnim {
+    0% {
+        box-shadow:
+            /* 右边头部 */
+            19em 0em 0 0.5em #333,
+            18em 2em 0 0.5em #333,
+            17em 4em 0 0.5em #333,
+            16em 6em 0 0.5em #333,
+            /* 左边头部 */
+            8.5em 2em 0 0.5em #333,
+            9.5em 4em 0 0.5em #333,
+            10.5em 6em 0 0.5em #333,
+            /* 框 左边 */
+
+            0em 24em 0 0.5em #333,
+            0em 22em 0 0.5em #333,
+            0em 20em 0 0.5em #333,
+            0em 18em 0 0.5em #333,
+            0em 16em 0 0.5em #333,
+            0em 14em 0 0.5em #333,
+            0em 12em 0 0.5em #333,
+            0em 10em 0 0.5em #333,
+
+            /* 框 上边 */
+            0em 8em 0 0.5em #333,
+            2em 8em 0 0.5em #333,
+            4em 8em 0 0.5em #333,
+            6em 8em 0 0.5em #333,
+            8em 8em 0 0.5em #333,
+            10em 8em 0 0.5em #333,
+            12em 8em 0 0.5em #333,
+            14em 8em 0 0.5em #333,
+            16em 8em 0 0.5em #333,
+            18em 8em 0 0.5em #333,
+            20em 8em 0 0.5em #333,
+            22em 8em 0 0.5em #333,
+            24em 8em 0 0.5em #333,
+            26em 8em 0 0.5em #333,
+            28em 8em 0 0.5em #333,
+            /* 框 右边 */
+
+            28em 10em 0 0.5em #333,
+            28em 12em 0 0.5em #333,
+            28em 14em 0 0.5em #333,
+            28em 16em 0 0.5em #333,
+            28em 18em 0 0.5em #333,
+            28em 20em 0 0.5em #333,
+            28em 22em 0 0.5em #333,
+            28em 24em 0 0.5em #333,
+            /* 框 下边 */
+
+            28em 26em 0 0.5em #333,
+            26em 26em 0 0.5em #333,
+            24em 26em 0 0.5em #333,
+            22em 26em 0 0.5em #333,
+            20em 26em 0 0.5em #333,
+            18em 26em 0 0.5em #333,
+            16em 26em 0 0.5em #333,
+            14em 26em 0 0.5em #333,
+            12em 26em 0 0.5em #333,
+            10em 26em 0 0.5em #333,
+            8em 26em 0 0.5em #333,
+            6em 26em 0 0.5em #333,
+            4em 26em 0 0.5em #333,
+            2em 26em 0 0.5em #333,
+            0em 26em 0 0.5em #333,
+            /* 眼睛左 */
+            11em 13em 0 0.5em #333,
+            9em 14.5em 0 0.5em #333,
+            7em 16em 0 0.5em #333,
+            /* 眼睛右 */
+            16em 13em 0 0.5em #333,
+            18em 14.5em 0 0.5em #333,
+            20em 16em 0 0.5em #333,
+            /* 嘴 */
+            10.5em 21em 0 0.5em #333,
+            12.5em 21em 0 0.5em #333,
+            14.5em 21em 0 0.5em #333,
+            16.5em 21em 0 0.5em #333;
+        left: 0em;
+    }
+
+    5% {
+        left: 8em;
+    }
+
+    10% {
+        left: 0em;
+    }
+
+    15% {
+        left: 2em;
+    }
+
+    20% {
+        left: 10em;
+    }
+
+    30% {
+        left: 35em;
+    }
+    40% {
+        left: 50em;
+    }
+    49% {
+        left: 40em;
+    }
+    60% {
+        left: 20em;
+    }
+    63% {
+        left: 25em;
+    }
+    70% {
+        left: 10em;
+    }
+    78% {
+        left: 22em;
+    }
+
+
+    79% {
+        box-shadow:
+            /* 右边头部 */
+            19em 0em 0 0.5em #333,
+            18em 2em 0 0.5em #333,
+            17em 4em 0 0.5em #333,
+            16em 6em 0 0.5em #333,
+            /* 左边头部 */
+            8.5em 2em 0 0.5em #333,
+            9.5em 4em 0 0.5em #333,
+            10.5em 6em 0 0.5em #333,
+            /* 框 左边 */
+
+            0em 24em 0 0.5em #333,
+            0em 22em 0 0.5em #333,
+            0em 20em 0 0.5em #333,
+            0em 18em 0 0.5em #333,
+            0em 16em 0 0.5em #333,
+            0em 14em 0 0.5em #333,
+            0em 12em 0 0.5em #333,
+            0em 10em 0 0.5em #333,
+
+            /* 框 上边 */
+            0em 8em 0 0.5em #333,
+            2em 8em 0 0.5em #333,
+            4em 8em 0 0.5em #333,
+            6em 8em 0 0.5em #333,
+            8em 8em 0 0.5em #333,
+            10em 8em 0 0.5em #333,
+            12em 8em 0 0.5em #333,
+            14em 8em 0 0.5em #333,
+            16em 8em 0 0.5em #333,
+            18em 8em 0 0.5em #333,
+            20em 8em 0 0.5em #333,
+            22em 8em 0 0.5em #333,
+            24em 8em 0 0.5em #333,
+            26em 8em 0 0.5em #333,
+            28em 8em 0 0.5em #333,
+            /* 框 右边 */
+
+            28em 10em 0 0.5em #333,
+            28em 12em 0 0.5em #333,
+            28em 14em 0 0.5em #333,
+            28em 16em 0 0.5em #333,
+            28em 18em 0 0.5em #333,
+            28em 20em 0 0.5em #333,
+            28em 22em 0 0.5em #333,
+            28em 24em 0 0.5em #333,
+            /* 框 下边 */
+
+            28em 26em 0 0.5em #333,
+            26em 26em 0 0.5em #333,
+            24em 26em 0 0.5em #333,
+            22em 26em 0 0.5em #333,
+            20em 26em 0 0.5em #333,
+            18em 26em 0 0.5em #333,
+            16em 26em 0 0.5em #333,
+            14em 26em 0 0.5em #333,
+            12em 26em 0 0.5em #333,
+            10em 26em 0 0.5em #333,
+            8em 26em 0 0.5em #333,
+            6em 26em 0 0.5em #333,
+            4em 26em 0 0.5em #333,
+            2em 26em 0 0.5em #333,
+            0em 26em 0 0.5em #333,
+            /* 眼睛左 */
+            11em 13em 0 0.5em #333,
+            9em 14.5em 0 0.5em #333,
+            7em 16em 0 0.5em #333,
+            /* 眼睛右 */
+            16em 13em 0 0.5em #333,
+            18em 14.5em 0 0.5em #333,
+            20em 16em 0 0.5em #333,
+            /* 嘴 */
+            10.5em 21em 0 0.5em #333,
+            12.5em 21em 0 0.5em #333,
+            14.5em 21em 0 0.5em #333,
+            16.5em 21em 0 0.5em #333;
+
+    }
+
+    80% {
+        
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em #453545,
+            18.5em 16em 0 0.5em #453545,
+            14.5em 12em 0 0.5em #453545,
+            19.5em 11em 0 0.5em #453545,
+            /* 圆圈 */
+            8em 16em 0 0.5em #453545,
+            10em 14em 0 0.5em #453545,
+            12em 12em 0 0.5em #453545,
+            7em 11em 0 0.5em #453545,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em #453545,
+            10em 21em 0 0.5em #453545,
+            8em 19em 0 0.5em #453545,
+            7em 24em 0 0.5em #453545,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em #453545,
+            16.5em 21em 0 0.5em #453545,
+            18.5em 19em 0 0.5em #453545,
+            19.5em 24em 0 0.5em #453545,
+            /* 十字 */
+            13.25em 16em 0 0.5em #453545,
+            13.25em 18em 0 0.5em #453545,
+            13.25em 16em 0 0.5em #453545,
+            13.25em 19em 0 0.5em #453545,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em #453545,
+            12em 17.5em 0 0.5em #453545,
+            12.5em 17.5em 0 0.5em #453545,
+            14.5em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545;
+    }
+
+
+    82% {
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em #453545,
+            18.5em 16em 0 0.5em #453545,
+            14.5em 12em 0 0.5em #453545,
+            19.5em 11em 0 0.5em transparent,
+            /* 圆圈 */
+            8em 16em 0 0.5em #453545,
+            10em 14em 0 0.5em #453545,
+            12em 12em 0 0.5em #453545,
+            7em 11em 0 0.5em transparent,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em #453545,
+            10em 21em 0 0.5em #453545,
+            8em 19em 0 0.5em #453545,
+            7em 24em 0 0.5em transparent,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em #453545,
+            16.5em 21em 0 0.5em #453545,
+            18.5em 19em 0 0.5em #453545,
+            19.5em 24em 0 0.5em transparent,
+            /* 十字 */
+            13.25em 16em 0 0.5em #453545,
+            13.25em 18em 0 0.5em #453545,
+            13.25em 16em 0 0.5em #453545,
+            13.25em 19em 0 0.5em #453545,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em #453545,
+            12em 17.5em 0 0.5em #453545,
+            12.5em 17.5em 0 0.5em #453545,
+            14.5em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545;
+    }
+
+    84% {
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em #453545,
+            18.5em 16em 0 0.5em #453545,
+            14.5em 12em 0 0.5em #453545,
+            19.5em 11em 0 0.5em #453545,
+            /* 圆圈 */
+            8em 16em 0 0.5em #453545,
+            10em 14em 0 0.5em #453545,
+            12em 12em 0 0.5em #453545,
+            7em 11em 0 0.5em #453545,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em #453545,
+            10em 21em 0 0.5em #453545,
+            8em 19em 0 0.5em #453545,
+            7em 24em 0 0.5em #453545,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em #453545,
+            16.5em 21em 0 0.5em #453545,
+            18.5em 19em 0 0.5em #453545,
+            19.5em 24em 0 0.5em #453545,
+            /* 十字 */
+            13.25em 16em 0 0.5em #453545,
+            13.25em 18em 0 0.5em #453545,
+            13.25em 16em 0 0.5em #453545,
+            13.25em 19em 0 0.5em #453545,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em #453545,
+            12em 17.5em 0 0.5em #453545,
+            12.5em 17.5em 0 0.5em #453545,
+            14.5em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545;
+    }
+    86% {
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em #453545,
+            18.5em 16em 0 0.5em #453545,
+            14.5em 12em 0 0.5em #453545,
+            19.5em 11em 0 0.5em transparent,
+            /* 圆圈 */
+            8em 16em 0 0.5em #453545,
+            10em 14em 0 0.5em #453545,
+            12em 12em 0 0.5em #453545,
+            7em 11em 0 0.5em transparent,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em #453545,
+            10em 21em 0 0.5em #453545,
+            8em 19em 0 0.5em #453545,
+            7em 24em 0 0.5em transparent,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em #453545,
+            16.5em 21em 0 0.5em #453545,
+            18.5em 19em 0 0.5em #453545,
+            19.5em 24em 0 0.5em transparent,
+            /* 十字 */
+            13.25em 16em 0 0.5em #453545,
+            13.25em 18em 0 0.5em #453545,
+            13.25em 16em 0 0.5em #453545,
+            13.25em 19em 0 0.5em #453545,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em #453545,
+            12em 17.5em 0 0.5em #453545,
+            12.5em 17.5em 0 0.5em #453545,
+            14.5em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545;
+    }
+
+    88% {
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em #453545,
+            18.5em 16em 0 0.5em #453545,
+            14.5em 12em 0 0.5em #453545,
+            19.5em 11em 0 0.5em #453545,
+            /* 圆圈 */
+            8em 16em 0 0.5em #453545,
+            10em 14em 0 0.5em #453545,
+            12em 12em 0 0.5em #453545,
+            7em 11em 0 0.5em #453545,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em #453545,
+            10em 21em 0 0.5em #453545,
+            8em 19em 0 0.5em #453545,
+            7em 24em 0 0.5em #453545,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em #453545,
+            16.5em 21em 0 0.5em #453545,
+            18.5em 19em 0 0.5em #453545,
+            19.5em 24em 0 0.5em #453545,
+            /* 十字 */
+            13.25em 16em 0 0.5em #453545,
+            13.25em 18em 0 0.5em #453545,
+            13.25em 16em 0 0.5em #453545,
+            13.25em 19em 0 0.5em #453545,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em #453545,
+            12em 17.5em 0 0.5em #453545,
+            12.5em 17.5em 0 0.5em #453545,
+            14.5em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545;
+    }
+
+    90% {
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em transparent,
+            18.5em 16em 0 0.5em transparent,
+            14.5em 12em 0 0.5em transparent,
+            19.5em 11em 0 0.5em transparent,
+            /* 圆圈 */
+            8em 16em 0 0.5em transparent,
+            10em 14em 0 0.5em transparent,
+            12em 12em 0 0.5em transparent,
+            7em 11em 0 0.5em transparent,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em transparent,
+            10em 21em 0 0.5em transparent,
+            8em 19em 0 0.5em transparent,
+            7em 24em 0 0.5em transparent,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em transparent,
+            16.5em 21em 0 0.5em transparent,
+            18.5em 19em 0 0.5em transparent,
+            19.5em 24em 0 0.5em transparent,
+            /* 十字 */
+            13.25em 16em 0 0.5em transparent,
+            13.25em 18em 0 0.5em transparent,
+            13.25em 16em 0 0.5em transparent,
+            13.25em 19em 0 0.5em transparent,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em #453545,
+            12em 17.5em 0 0.5em #453545,
+            12.5em 17.5em 0 0.5em #453545,
+            14.5em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545;
+    }
+    92% {
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em #453545,
+            18.5em 16em 0 0.5em #453545,
+            14.5em 12em 0 0.5em #453545,
+            19.5em 11em 0 0.5em #453545,
+            /* 圆圈 */
+            8em 16em 0 0.5em #453545,
+            10em 14em 0 0.5em #453545,
+            12em 12em 0 0.5em #453545,
+            7em 11em 0 0.5em #453545,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em #453545,
+            10em 21em 0 0.5em #453545,
+            8em 19em 0 0.5em #453545,
+            7em 24em 0 0.5em #453545,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em #453545,
+            16.5em 21em 0 0.5em #453545,
+            18.5em 19em 0 0.5em #453545,
+            19.5em 24em 0 0.5em #453545,
+            /* 十字 */
+            13.25em 16em 0 0.5em #453545,
+            13.25em 18em 0 0.5em #453545,
+            13.25em 16em 0 0.5em #453545,
+            13.25em 19em 0 0.5em #453545,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em #453545,
+            12em 17.5em 0 0.5em #453545,
+            12.5em 17.5em 0 0.5em #453545,
+            14.5em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545;
+    }
+
+    94% {
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em transparent,
+            18.5em 16em 0 0.5em transparent,
+            14.5em 12em 0 0.5em transparent,
+            19.5em 11em 0 0.5em transparent,
+            /* 圆圈 */
+            8em 16em 0 0.5em transparent,
+            10em 14em 0 0.5em transparent,
+            12em 12em 0 0.5em transparent,
+            7em 11em 0 0.5em transparent,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em transparent,
+            10em 21em 0 0.5em transparent,
+            8em 19em 0 0.5em transparent,
+            7em 24em 0 0.5em transparent,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em transparent,
+            16.5em 21em 0 0.5em transparent,
+            18.5em 19em 0 0.5em transparent,
+            19.5em 24em 0 0.5em transparent,
+            /* 十字 */
+            13.25em 16em 0 0.5em transparent,
+            13.25em 18em 0 0.5em transparent,
+            13.25em 16em 0 0.5em transparent,
+            13.25em 19em 0 0.5em transparent,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em #453545,
+            12em 17.5em 0 0.5em #453545,
+            12.5em 17.5em 0 0.5em #453545,
+            14.5em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545;
+    }
+    96% {
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em #453545,
+            18.5em 16em 0 0.5em #453545,
+            14.5em 12em 0 0.5em #453545,
+            19.5em 11em 0 0.5em #453545,
+            /* 圆圈 */
+            8em 16em 0 0.5em #453545,
+            10em 14em 0 0.5em #453545,
+            12em 12em 0 0.5em #453545,
+            7em 11em 0 0.5em #453545,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em #453545,
+            10em 21em 0 0.5em #453545,
+            8em 19em 0 0.5em #453545,
+            7em 24em 0 0.5em #453545,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em #453545,
+            16.5em 21em 0 0.5em #453545,
+            18.5em 19em 0 0.5em #453545,
+            19.5em 24em 0 0.5em #453545,
+            /* 十字 */
+            13.25em 16em 0 0.5em #453545,
+            13.25em 18em 0 0.5em #453545,
+            13.25em 16em 0 0.5em #453545,
+            13.25em 19em 0 0.5em #453545,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em #453545,
+            12em 17.5em 0 0.5em #453545,
+            12.5em 17.5em 0 0.5em #453545,
+            14.5em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545,
+            15em 17.5em 0 0.5em #453545;
+    }
+
+    98% {
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em transparent,
+            18.5em 16em 0 0.5em transparent,
+            14.5em 12em 0 0.5em transparent,
+            19.5em 11em 0 0.5em transparent,
+            /* 圆圈 */
+            8em 16em 0 0.5em transparent,
+            10em 14em 0 0.5em transparent,
+            12em 12em 0 0.5em transparent,
+            7em 11em 0 0.5em transparent,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em transparent,
+            10em 21em 0 0.5em transparent,
+            8em 19em 0 0.5em transparent,
+            7em 24em 0 0.5em transparent,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em transparent,
+            16.5em 21em 0 0.5em transparent,
+            18.5em 19em 0 0.5em transparent,
+            19.5em 24em 0 0.5em transparent,
+            /* 十字 */
+            13.25em 16em 0 0.5em transparent,
+            13.25em 18em 0 0.5em transparent,
+            13.25em 16em 0 0.5em transparent,
+            13.25em 19em 0 0.5em transparent,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em transparent,
+            12em 17.5em 0 0.5em transparent,
+            12.5em 17.5em 0 0.5em transparent,
+            14.5em 17.5em 0 0.5em transparent,
+            15em 17.5em 0 0.5em transparent,
+            15em 17.5em 0 0.5em transparent;
+    }
+
+
+
+    100% {
+        left: 22em;
+
+        box-shadow:
+            /* 圆圈 */
+            16.5em 14em 0 0.5em transparent,
+            18.5em 16em 0 0.5em transparent,
+            14.5em 12em 0 0.5em transparent,
+            /* 圆圈 */
+            8em 16em 0 0.5em transparent,
+            10em 14em 0 0.5em transparent,
+            12em 12em 0 0.5em transparent,
+
+            /* 圆圈 */
+            12em 23em 0 0.5em transparent,
+            10em 21em 0 0.5em transparent,
+            8em 19em 0 0.5em transparent,
+            /* 圆圈 */
+            14.5em 23em 0 0.5em transparent,
+            16.5em 21em 0 0.5em transparent,
+            18.5em 19em 0 0.5em transparent,
+            /* 十字 */
+            13.25em 16em 0 0.5em transparent,
+            13.25em 18em 0 0.5em transparent,
+            13.25em 16em 0 0.5em transparent,
+            13.25em 19em 0 0.5em transparent,
+            /* 十字 */
+            11.5em 17.5em 0 0.5em transparent,
+            12em 17.5em 0 0.5em transparent,
+            12.5em 17.5em 0 0.5em transparent,
+            14.5em 17.5em 0 0.5em transparent,
+            15em 17.5em 0 0.5em transparent,
+            15em 17.5em 0 0.5em transparent;
+    }
+}
